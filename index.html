@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="lightbox3-master/dist/lightbox3.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="icon" type="image/svg+xml" href="images/WD4E - Capstone Logo.svg">
+    <title>Lê Vũ Nhựt Minh's Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">
+                <img src="images/WD4E - Capstone Logo.svg" alt="Lê Vũ Nhựt Minh Logo">
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#featured-projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="home" class="hero">
+
+            <div class="hero-content">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1>Lê Vũ <span id="first-name">Nhựt Minh</span></h1>
+                <p class="hero-description">
+                    I build responsive websites and software projects while studying at FPT University.
+                </p>
+                <a href="#projects" class="btn">
+                    View My Projects
+                </a>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>
+                    I'm currently a university student majoring in Software Engineering, studying at FPT University - Cần Thơ campus.
+                </p>
+                <p>
+                    I have a strong passion for web development, networking and database management. I am eager to learn and explore new technologies, and I am always looking for opportunities to improve my skills and knowledge in the field of software engineering.
+                </p>
+                <p>
+                    My current skills include:
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Responsive Design</li>
+                        <li>JavaScript (learning)</li>
+                        <li>C Programming</li>
+                        <li>Git & GitHub</li>
+                    </ul>
+                </p>
+                </div>
+        </section>
+        
+        <section id="projects">
+            <h2>Featured Projects</h2>
+            <p>This section showcases all of my original works made during my studies. Click on the image to see them in full size.</p>
+            <div class="project-grid">
+                <article class="project-card">
+                    <a href="images/my_favorite_firearms.png"
+                    data-lightbox="my_favorite_firearms"
+                    data-title="A PC view screenshot of My Favorite Firearms">
+                        <img src="images/my_favorite_firearms.png"
+                        alt="Screenshot of My Favorite Firearms">
+                    </a>
+                    <div class="project-content">
+                        <h2>My Favorite Firearms</h2>
+                        <p>The website is a simple showcase of my favorite firearms, made as a Final Project for the Introduction to HTML5 course on Coursera, provided by the University of Michigan. It's a simple website that demonstrates my understanding of HTML5. And it has no styling whatsoever.</p>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://aguynamedminh.github.io/WD4E_Introduction_to_HTML5_Final_Project/" target="_blank" class="btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> View</a>
+                        <a href="https://github.com/AGuyNamedMinh/WD4E_Introduction_to_HTML5_Final_Project" target="_blank" class="btn"><i class="fa-brands fa-github"></i> Repository</a>
+                    </div>  
+                </article>
+
+                <article class="project-card">
+                    <a href="images/computer_hardware_showcase.png"
+                    data-lightbox="computer_hardware_showcase"
+                    data-title="A PC view screenshot of Computer Hardware Showcase">
+                        <img src="images/computer_hardware_showcase.png" alt="Screenshot of the Computer Hardware Showcase project">
+                    </a>
+                    <div class="project-content">
+                        <h2>Computer Hardware Showcase</h2>
+                        <p>
+                            A simple showcase of computer hardware, made as a Final Project for the Introduction to CSS3 course on Coursera, provided by the University of Michigan.<br>
+                            The website demonstrates my understanding of CSS3 and how to use it to style a website. Personally, I am quite proud of this project as it showcases my ability to create visually appealing and functional websites.
+                        </p>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://aguynamedminh.github.io/WD4E_Introduction_to_CSS3/CSS-week4-FinalProject/cpus.html" target="_blank" class="btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> View</a>
+                        <a href="https://github.com/AGuyNamedMinh/WD4E_Introduction_to_CSS3_Final_Project/CSS-week4-FinalProject" target="_blank" class="btn"><i class="fa-brands fa-github"></i> Repository</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <a href="images/vietnamese_landmarks_photo_gallery.png"
+                    data-lightbox="vietnamese_landmarks_photo_gallery"
+                    data-title="The PC view screenshot (left) and phone view screenshot (right) of Vietnamese Landmarks Photo Gallery">
+                        <img src="images/vietnamese_landmarks_photo_gallery.png" alt="PC screenshot of the Vietnamese Landmarks Photo Gallery project">
+                    </a> <!-- This was supposed to be 2 images but I gave up on implementing it -->
+                    <div class="project-content">
+                        <h2>Vietnamese Landmarks Photo Gallery</h2>
+                        <p>
+                            A photo gallery showcasing the beauty of 9 famous Vietnamese landmarks. Made as a Final Project for the Advanced Styling with Responsive Design course on Coursera, provided by the University of Michigan.<br>
+                            The website demonstrates my understanding of responsive design and how to create a website that looks great on any device. I am mostly proud of this project as it showcases my ability to create visually appealing and functional websites that are also responsive.<br>
+                            There are some cheeky comments in the code that I left in there to express my feelings when creating it, but they don't affect the functionality of the website.
+                        </p>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://aguynamedminh.github.io/WD4E-Advanced_Styling_with_Responsive_Design/RD-week4-final_project_completed/index.html" target="_blank" class="btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> View</a>
+                        <a href="https://github.com/AGuyNamedMinh/WD4E-Advanced_Styling_with_Responsive_Design/RD-week4-final_project_completed" target="_blank" class="btn"><i class="fa-brands fa-github"></i> Repository</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <a href="images/photo_gallery_of_my_cats.png" data-lightbox="photo_gallery_of_my_cats" data-title="A PC view screenshot of the Photo Gallery of My Cats project">
+                        <img src="images/photo_gallery_of_my_cats.png" alt="Screenshot of the Photo Gallery of My Cats project">
+                    </a>
+                    <div class="project-content">
+                        <h2>Interactive Photo Gallery of My Cats</h2>
+                        <p>
+                        An interactive collection of photos of my beloved cats (mostly my tabby named Catboy, my mother named it, not me), showcasing him mostly sleeping.<br>
+                        As seen in the screenshot, you can hover over one of the smaller images to display them in the larger box.<br>
+                        Made as a Final Project for the Interactivity with JavaScript course on Coursera, provided by the University of Michigan.
+                        </p>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://aguynamedminh.github.io/WD4E_Interactivity_with_Javascript_Final_Project/gallery.html" target="_blank" class="btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> View</a>
+                        <a href="https://github.com/AGuyNamedMinh/WD4E_Interactivity_with_Javascript_Final_Project" target="_blank" class="btn"><i class="fa-brands fa-github"></i> Repository</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-content">
+                        <h2>My Personal Portfolio</h2>
+                        <p>
+                            This website is my personal portfolio, showcasing my skills and projects. Made as a Final Project for the Web Development for Everybody Capstone course on Coursera, provided by the University of Michigan.<br>
+                            The website demonstrates my understanding of web development and how to create a website that is both visually appealing and functional. I am proud of this project as it showcases my ability to create a professional website that represents me and my work.<br>
+                            You're looking at it right now by the way, if you're somehow not figured it out yet. I made this website from scratch, and I am quite proud of the result. I hope you enjoy browsing through my portfolio and learning more about me and my work.
+                        </p>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/AGuyNamedMinh/WD4E-Capstone" target="_blank" class="btn"><i class="fa-brands fa-github"></i> Repository</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out through the contact form below if you have any questions or opportunities!</p>
+            <div class="project-links">
+                <a href="mailto:nhutminh02052007@gmail.com" class="btn"><i class="fa-regular fa-envelope"></i> Email</a>
+                <a href="https://x.com/AGuyNamedMinh" target="_blank" class="btn"><i class="fa-brands fa-x-twitter"></i> X (formerly Twitter)</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created by Lê Vũ Nhựt Minh.</p>
+    </footer>
+    <script src="lightbox3-master/dist/lightbox3.min.js"></script>
+    <script>
+        const lb = Lightbox3.Lightbox.init();
+    </script>
+</body>
+</html>
