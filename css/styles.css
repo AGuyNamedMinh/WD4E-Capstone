@@ -23,6 +23,28 @@
     --radius: 12px;
 }
 
+[data-theme="dark"] {
+    --primary: #2563eb;
+
+    --primary-hover: #1d4ed8;
+
+    --secondary: #023E8A;
+
+    --background: #1F2937;
+
+    --surface: #111827;
+
+    --text: #F8FAFC;
+
+    --text-light: #9CA3AF;
+
+    --border: #374151;
+
+    --shadow: 0 8px 24px rgba(0,0,0,.08);
+
+    --radius: 12px;
+}
+
 *{
     margin: 0;
 
@@ -35,6 +57,40 @@ html{
     scroll-behavior: smooth;
 }
 
+#theme-toggle {
+    background: transparent;
+    border: none;
+    color: var(--text);
+    font-size: 1.25rem;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 44px;
+    height: 44px;
+
+    border-radius: 50%;
+
+    transition:
+        background-color 0.2s ease,
+        color 0.2s ease,
+        transform 0.2s ease;
+}
+
+#theme-toggle:hover {
+    background-color: var(--surface);
+}
+
+#theme-toggle:active {
+    transform: scale(0.95);
+}
+
+#theme-toggle:focus-visible {
+    outline: 3px solid var(--primary);
+    outline-offset: 3px;
+}
 body{
     font-family: "Inter", sans-serif;
 
@@ -121,9 +177,9 @@ header {
     position: sticky;
     top: 0;
 
-    background: white;
+    background: var(--surface);
 
-    box-shadow: 0 2px 10px rgba(0,0,0,.08);
+    box-shadow: var(--shadow);
 
     z-index: 1000;
 }
@@ -155,8 +211,18 @@ header {
 .nav-links a{
 
     text-decoration: none;
+
     font-weight: 500;
 
+    color: var(--text);
+
+    transition: .2s ease;
+}
+
+a:focus-visible,
+button:focus-visible {
+    outline: 3px solid var(--primary);
+    outline-offset: 3px;
 }
 
 .hero{
@@ -193,7 +259,7 @@ header {
 
 #first-name{
 
-    color: var(--secondary);
+    color: var(--primary);
 
 }
 
@@ -223,7 +289,7 @@ header {
 
     background: var(--primary);
 
-    color: white;
+    color: var(--text);
 
     border: 5px solid var(--secondary);
 
@@ -255,13 +321,13 @@ section{
 
     flex-direction: column;
 
-    background: #fff;
+    background: var(--surface);
 
     border-radius: 16px;
 
     overflow: hidden;
 
-    box-shadow: 0 10px 25px rgba(0,0,0,.08);
+    box-shadow: var(--shadow);
 
     transition: .25s;
 
@@ -270,7 +336,7 @@ section{
 .project-card:hover {
     transform: translateY(-6px);
 
-    box-shadow: 0 18px 35px rgba(0,0,0,.12);
+    box-shadow: var(--shadow);
 
 }
 
