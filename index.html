@@ -13,27 +13,24 @@
 <body>
     <header>
         <nav class="navbar">
-            <a href="#home" class="logo">
-                <img src="images/WD4E - Capstone Logo.svg" alt="Lê Vũ Nhựt Minh Logo">
-            </a>
-
+            <div class="navbar-top">
+                <a href="#home" class="logo">
+                    <img src="images/WD4E - Capstone Logo.svg" alt="Lê Vũ Nhựt Minh Logo">
+                </a>
+                <button id="theme-toggle" aria-label="Toggle Theme" title="Toggle Theme">
+                    <i id="theme-icon" class="fa-solid fa-circle-half-stroke"></i>
+                </button>
+            </div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-
-            <button id="theme-toggle" aria-label="Toggle Theme" title="Toggle Theme">
-                <i id="theme-icon" class="fa-solid fa-circle-half-stroke"></i>
-            </button>
         </nav>
     </header>
-
     <main>
-
         <section id="home" class="hero">
-
             <div class="hero-content">
                 <p class="hero-greeting">Hello, I'm</p>
                 <h1>Lê Vũ <span id="first-name">Nhựt Minh</span></h1>
@@ -45,7 +42,6 @@
                 </a>
             </div>
         </section>
-
         <section id="about">
             <div class="container">
                 <h2>About Me</h2>
@@ -68,7 +64,6 @@
                 </p>
                 </div>
         </section>
-        
         <section id="projects">
             <h2>Featured Projects</h2>
             <p>This section showcases all of my original works made during my studies. Click on the image to see them in full size.</p>
@@ -89,7 +84,6 @@
                         <a href="https://github.com/AGuyNamedMinh/WD4E_Introduction_to_HTML5_Final_Project" target="_blank" class="btn"><i class="fa-brands fa-github"></i> Repository</a>
                     </div>  
                 </article>
-
                 <article class="project-card">
                     <a href="images/computer_hardware_showcase.png"
                     data-lightbox="computer_hardware_showcase"
@@ -108,7 +102,6 @@
                         <a href="https://github.com/AGuyNamedMinh/WD4E_Introduction_to_CSS3/tree/main/CSS-week4-FinalProject" target="_blank" class="btn"><i class="fa-brands fa-github"></i> Repository</a>
                     </div>
                 </article>
-
                 <article class="project-card">
                     <a href="images/vietnamese_landmarks_photo_gallery.png"
                     data-lightbox="vietnamese_landmarks_photo_gallery"
@@ -128,7 +121,6 @@
                         <a href="https://github.com/AGuyNamedMinh/WD4E-Advanced_Styling_with_Responsive_Design/tree/main/RD-week4-final_project_completed" target="_blank" class="btn"><i class="fa-brands fa-github"></i> Repository</a>
                     </div>
                 </article>
-
                 <article class="project-card">
                     <a href="images/photo_gallery_of_my_cats.png" data-lightbox="photo_gallery_of_my_cats" data-title="A PC view screenshot of the Photo Gallery of My Cats project">
                         <img src="images/photo_gallery_of_my_cats.png" alt="Screenshot of the Photo Gallery of My Cats project">
@@ -146,7 +138,6 @@
                         <a href="https://github.com/AGuyNamedMinh/WD4E_Interactivity_with_Javascript_Final_Project" target="_blank" class="btn"><i class="fa-brands fa-github"></i> Repository</a>
                     </div>
                 </article>
-
                 <article class="project-card">
                     <div class="project-content">
                         <h2>My Personal Portfolio</h2>
@@ -162,7 +153,6 @@
                 </article>
             </div>
         </section>
-
         <section id="contact">
             <h2>Contact Me</h2>
             <p>Feel free to reach out through the contact form below if you have any questions or opportunities!</p>
@@ -172,7 +162,6 @@
             </div>
         </section>
     </main>
-
     <footer>
         <p>Created by Lê Vũ Nhựt Minh.</p>
     </footer>

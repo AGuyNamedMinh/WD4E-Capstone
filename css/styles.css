@@ -370,10 +370,59 @@ section{
 
 .project-content{
 
-    padding:2rem;
+    padding: 2rem;
 
 }
 
 footer {
     text-align: center;  
+}
+
+@media (max-width: 768px) {
+
+.navbar {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.navbar-top {
+        display: flex;
+
+        align-items: center;
+
+        justify-content: space-between;
+
+        width: 100%;
+    }
+
+.logo {
+    margin-right: auto;
+}
+
+#theme-toggle {
+    margin-left: auto;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+.nav-links {
+    width: 100%;
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 1rem;
+
+    margin-top: 0.75rem;
+}
+
 }
